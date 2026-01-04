@@ -1,4 +1,4 @@
-//dedafio de logica DIO
+//1º desafio de logica DIO
 let herois = [
     { nome: "Dario", quantidadexp: 21000 },
     { nome: "Ana", quantidadexp: 1500 },
@@ -8,7 +8,7 @@ let herois = [
     let nome = herois[i].nome;
     let quantidadexp = herois[i].quantidadexp;
     let nivel = "";
-
+ 
 if (quantidadexp <= 1000) {
     nivel = "Ferro";
 } else if (quantidadexp <= 2000) {
@@ -29,4 +29,4 @@ if (quantidadexp <= 1000) {
 
 console.log("O heroi " + nome + " possui " + quantidadexp + 
                " pontos de experiência e é do nível " + nivel);
-}
+}  
