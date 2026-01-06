@@ -24,6 +24,6 @@ function nivelHeroi(pontos){
     return nivel;
 }
 
-   let nivelAtual = nivelHeroi(saldoVitorias);
+let nivelAtual = nivelHeroi(saldoVitorias);
 
 console.log(`O Herói tem de saldo de ${saldoVitorias} Vítorias e está no nível de ${nivelAtual}.`);
